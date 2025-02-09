@@ -49,6 +49,11 @@ models = {
     "distil-large-v3": {
         "base": "mustafaaljadery/distil-whisper-mlx",
     },
+    "large-v3-turbo": {
+        "base": "mlx-community/whisper-turbo",
+        "4bit": "mlx-community/whisper-large-v3-turbo-q4",
+    },
+
 }
 
 class LightningWhisperMLX():
